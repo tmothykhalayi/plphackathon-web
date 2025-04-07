@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to My Portfolio - Showcasing creative ideas, projects, and skills to bring our brainstormed concepts to life. Explore and connect!">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6867ee13f.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a6867ee13f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>OJUKA</h1>
+                <p>Data Beats Fancier Algorithm</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>DATA SCIENTIST</p>
+                <h2>Hi, I am Ojuka <br>Clifford From Kenya</h2>
+            </div>
+        </div>
+    </div>
+    <!-----About----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assests/persona.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a Data Scientist, I am passionate about transforming raw data into actionable insights and strategic solutions. With a solid foundation in data analytics and data science, I am dedicated to advancing my skills and making a meaningful impact in the industry. My academic background has equipped me with strong analytical abilities, and my hands-on projects have honed my expertise in utilizing various tools and technologies to solve complex problems.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'languages')">Languages</p>
+                        <p class="tab-links" onclick="opentab(event, 'viz-tools')">Viz-Tools</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Statistical Analysis</li>
+                            <li>Critical Thinking</li>
+                            <li>Problem-Solving</li>
+                            <li>Data Cleaning</li>
+                            <li>Communication</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="languages">
+                        <ul>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Streamlit</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="viz-tools">
+                        <ul>
+                            <li>Tableau</li>
+                            <li>Power BI</li>
+                            <li>Matplotlib</li>
+                            <li>Seaborn</li>
+                           <li>Excel Charts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----Projects----->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <h2>Loan Default</h2>
+                    <p>Financial institutions face significant challenges in assessing the creditworthiness of loan applicants. 
+                    Accurate evaluation of an applicant's ability to repay a loan is crucial for minimising defaults and managing risk. 
+                    Traditional methods of credit assessment may not fully capture the complexities of individual financial behaviour, 
+                    leading to potential losses for lenders. By leveraging machine learning and predictive analytics, 
+                    institutions can enhance their loan approval processes and make more informed decisions.</p>
+                    <a href="https://loan-default-rfaejwzfgnu42f9xbs22ck.streamlit.app/">Learn more</a>
+                </div>
+                <div>
+                    <h2>COVID-19 Prediction App</h2>
+                    <p>This app predicts the number of deaths due to COVID-19 based on the provided data. You can navigate to different sections using the sidebar to explore the data, visualize insights, and interact with the machine learning models.</p>
+                    <a href="https://corona-disease.streamlit.app/">Learn more</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-------contact-------->
+    <div id="contact">
+        <div class="container">
+            <div id="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>cliffordojuka53@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0717459528 0723139436</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/clifford-ojuka"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Clffordojuka"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/TmKojuka"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1lp-Hl4XqgXIBHBr1HsTcnCqoUG9FgUD-/view?usp=sharing" class="btn">Download RESUME</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="Btn">Submit</button>
+                    </form>
+                    <span id="Msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; OJUKA <i class="fa-solid fa-hexagon-nodes"></i></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
