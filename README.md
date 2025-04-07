@@ -21,8 +21,6 @@ JavaScript: Used for dynamic content generation (projects) and handling the cont
 localStorage: Used to store submitted contact form messages temporarily, simulating a backend.
 
 Project Structure
-bash
-Copy
 /my-portfolio
   ├── index.html           # Main HTML file with structure and content
   ├── styles.css           # Styling of the website
@@ -31,24 +29,9 @@ Copy
 How to Run
 Clone the repository:
 
-bash
-Copy
-git clone https://github.com/your-username/my-portfolio.git
-Navigate to the project folder:
-
-bash
-Copy
-cd my-portfolio
-Open the index.html file:
-
-Open the index.html file in any modern browser (Chrome, Firefox, etc.).
-
-View the portfolio:
-
-The portfolio website will be displayed in the browser.
 
 Contact Me
-Feel free to contact me through the contact form on the website. You can also reach me via email at your-email@example.com.
+Feel free to contact me through the contact form on the website. You can also reach me via email 
 
 License
 This project is open-source and available under the MIT License.
