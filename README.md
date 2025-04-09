@@ -12,7 +12,6 @@ Technologies Used
 HTML: Used to structure the content of the website.
 
 CSS: Used to style the website and ensure a clean, professional design.
-
 JavaScript: Used for dynamic content generation (projects) and handling the contact form functionality (localStorage).
 
 localStorage: Used to store submitted contact form messages temporarily, simulating a backend.
