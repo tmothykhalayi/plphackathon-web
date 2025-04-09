@@ -1,6 +1,5 @@
 Features
 Home Page: Introduction about myself and links to various sections.
-
 About Me: Details about my background, experience, and goals.
 
 Projects: A dynamically generated list of my projects, with descriptions and links to GitHub repositories.
