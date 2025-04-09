@@ -7,7 +7,6 @@ Skills: A list of technologies I am familiar with.
 Contact Form: A contact form that users can fill out to reach me, with form submissions saved to localStorage.
 
 Responsive Design: The website is fully responsive, making it easy to view on both desktop and mobile devices.
-
 Technologies Used
 HTML: Used to structure the content of the website.
 
