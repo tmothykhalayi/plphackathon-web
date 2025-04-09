@@ -3,7 +3,6 @@ Home Page: Introduction about myself and links to various sections.
 About Me: Details about my background, experience, and goals.
 
 Projects: A dynamically generated list of my projects, with descriptions and links to GitHub repositories.
-
 Skills: A list of technologies I am familiar with.
 
 Contact Form: A contact form that users can fill out to reach me, with form submissions saved to localStorage.
